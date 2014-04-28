@@ -1,0 +1,215 @@
+@font-face{
+    font-family: 'varsity-regular';
+    src: url('../fonts/varsity_regular-webfont.woff');
+    src: url('../fonts/varsity_regular-webfont.eot');
+    src: url('../fonts/varsity_regular-webfont.svg');
+    src: url('../fonts/varsity_regular-webfont.ttf');
+}
+@font-face{
+    font-family: 'college-regular';
+    src: url('../fonts/college-webfont.woff');
+    src: url('../fonts/college-webfont.eot');
+    src: url('../fonts/college-webfont.svg');
+    src: url('../fonts/college-webfont.ttf');
+}
+@font-face{
+    font-family: 'college-bold';
+    src: url('../fonts/collegeb-webfont.woff');
+    src: url('../fonts/collegeb-webfont.eot');
+    src: url('../fonts/collegeb-webfont.svg');
+    src: url('../fonts/collegeb-webfont.ttf');
+}
+@font-face{
+    font-family: 'college-condensed-regular';
+    src: url('../fonts/collegec-webfont.woff');
+    src: url('../fonts/collegec-webfont.eot');
+    src: url('../fonts/collegec-webfont.svg');
+    src: url('../fonts/collegec-webfont.ttf');
+}
+@font-face{
+    font-family: 'college-semi-condensed-regular';
+    src: url('../fonts/colleges-webfont.woff');
+    src: url('../fonts/colleges-webfont.eot');
+    src: url('../fonts/colleges-webfont.svg');
+    src: url('../fonts/colleges-webfont.ttf');
+}
+
+body {
+    font-family: 'college-regular';
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+/* Header Styles */
+#main_header {
+    height: 169px;
+}
+#logo{
+    width: 30%;
+    text-align: center;
+    height: 145px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+#logo > a > img{
+    width: 280px;
+    margin-left: 20px;
+    margin-bottom: 95px;
+}
+#titulo{
+    display: inline-block;
+    float: inherit;
+    font-family: 'college-semi-condensed-regular';
+    /*font-family: 'varsity-regular';*/
+    padding-left: 25px;
+    margin-left: 30px;
+}
+.texto-logo2{
+    padding-left: 218px;
+    font-size: 40px;
+    font-family: 'college-bold';
+    border-left: transparent;
+    border-right: transparent;
+    border-style: double;
+}
+#box1:hover {
+    background-image:url("img/logo_hover.png");
+    opacity: 0.73;
+    background-repeat: no-repeat no-repeat;
+    transition-property: background-image;
+    transition-duration: 0.5s;
+}
+/* End of Header styles */
+
+/* Nav styles */
+#main_nav{
+    padding-top: 15px;
+    margin-top: 15px;
+}
+#main_nav > ul{
+    margin: 0;
+    text-align: center;
+    /*padding-left: 65px;*/
+}
+#main_nav > ul > li{
+	display: inline-block;
+}
+#main_nav > ul > li > a{
+    font-family: 'college-regular';
+    font-size: 19px;
+    color: #3c3c3c;
+	display: block;
+	padding-left: 45px;
+    padding-right: 45px;
+	text-decoration: none;
+    line-height: 14px;
+}
+#main_nav > ul > li > a:hover{
+    color: rgb(113, 58, 126);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid rgba(149, 205, 116, 0.509804);
+}
+.nav-icon {
+    color: #3c3c3c;
+    font-size: 15px;
+    padding-right: 3px;
+}
+
+/*End of Nav Styles*/
+
+/* Slider Styles*/
+#featured{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 3px solid #c9c9c9;
+}
+#featured > div > div > img{
+    display: inline-block;
+    width: 880px;
+    height: 450px;
+    /*visibility: hidden;*/
+}
+#slider{
+    height: 450px;
+    width: 880px;
+    margin: 0 auto;
+}
+.slider-wrapper {
+    display: block;
+    height: 450px;
+    width: 90%;
+    margin: 0 auto;
+}
+.theme-default .nivo-controlNav {
+    text-align: center;
+    padding: 20px 0;
+}
+.nivo-controlNav {
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    top: -50px;
+    z-index: 1000;
+}
+/* End of Slider Styles*/
+
+
+/* Start of info Styles*/
+#info{
+    padding: 30px;
+    text-align: center;
+    height: 400px;
+}
+.info-article {
+    display: inline-block;
+    height: 200px;
+    
+}
+.icon-info {
+    display: inline-block;
+    float: left;
+    width: 15%;
+}
+.icon-info > i {
+    font-size: 70px;
+    float: left;
+    height: 200px;
+}
+
+
+/* End of info Styles*/
+
+/* Start of imagenes Styles*/
+
+#wrapper {
+    padding-left: 66px;
+    width: 1000px;
+    list-style: none;
+    margin: 10px 0;
+    float: left;
+}
+
+#wrapper > li {
+    width: 290px;
+    height: 210px;
+    float: left;
+    background: url(css/loader.gif) center center no-repeat;
+}
+
+.bwWrapper {
+    margin: 0 auto;
+    position:relative;
+    display:block;
+    overflow: hidden;
+}
+
+/* End of imagenes Styles*/
